@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node --max-old-space-size=2048 ./node_modules/@angular/cli/bin/ng serve",
-    "build": "ng build --configuration production",
+    "scripts": {
+      "build": "ng build --configuration production",
+      "start": "npm run build && npx serve -s dist/libro-bookstore-app"
+},
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "devStart": "nodemon server.js"
