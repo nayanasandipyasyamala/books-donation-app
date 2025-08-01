@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "build": "node --max-old-space-size=2048 ./node_modules/@angular/cli/bin/ng build --configuration development",
-"start": "ng build --configuration=production && npx serve -s dist/frontend",    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "build": "node --max-old-space-size=2048 ./node_modules/@angular/cli/bin/ng build --configuration=production",
+  "start": "npm run build && npx serve -s dist/frontend",
+  "test": "ng test",
     "devStart": "nodemon server.js"
   },
   "private": true,
