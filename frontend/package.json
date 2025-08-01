@@ -2,13 +2,13 @@
   "name": "libro-bookstore-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-      "build": "ng build --configuration production",
-      "start": "npm run build && npx serve -s dist/libro-bookstore-app",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "devStart": "nodemon server.js"
-  },
+  "ng": "ng",
+  "build": "node --max-old-space-size=2048 ./node_modules/@angular/cli/bin/ng build --configuration production",
+  "start": "npm run build && npx serve -s dist/libro-bookstore-app",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "devStart": "nodemon server.js"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.0.0",
