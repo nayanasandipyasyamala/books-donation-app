@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "scripts": {
       "build": "ng build --configuration production",
-      "start": "npm run build && npx serve -s dist/libro-bookstore-app"
-},
+      "start": "npm run build && npx serve -s dist/libro-bookstore-app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "devStart": "nodemon server.js"
