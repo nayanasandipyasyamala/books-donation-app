@@ -1,44 +1,61 @@
-# booksDonationApp_MEAN
+📚 Book Donation Web Application
+A full-stack Book Donation platform built using HTML5, CSS3, MongoDB, Node.js, Express, TypeScript, and Angular.
 
-Books donation website created using HTML 5, CSS3, MongoDB, Node.js, Express, Typescript and Angular.
+🧰 Tech Stack Overview
+MongoDB: A NoSQL database that stores data in flexible, JSON-like documents within collections. Ideal for seamless integration with Node.js environments.
 
-✏️ MONGODB is a no SQL database which stores "Documents" in "collections". It is a powerful database which can easily be integrated into a Node or Express environment.
+Express.js: A minimal and flexible Node.js web application framework for building robust APIs and handling backend logic efficiently.
 
-✏️ EXPRESS is a Node framework which simplifies writing server-side code and logic.
+Node.js: A JavaScript runtime environment used for executing server-side code and handling HTTP requests/responses.
 
-✏️ ANGULAR is a client-side (browser) framework which allows us to build single-page application (SPA). It handles the user input and communicate with backend services.
+Angular: A powerful client-side framework for building single-page applications (SPAs) with reactive UI and dynamic data binding.
 
-✏️ NODEJS is a server-side library that listens to requests and sends responses. It interacts with databases and files.
+TypeScript: A strongly typed superset of JavaScript that enhances code maintainability and scalability.
 
-📧 Email: cherry.dominguez36@gmail.com
+🚀 Getting Started
+Development Server
+To start the development server:
 
-💜 PREVIEW: 💜
+bash
+Copy code
+ng serve
+Open your browser and navigate to http://localhost:4200.
+The app automatically reloads when changes are made to source files.
 
-https://github.com/CherryDomgz/booksDonationApp_MEAN/assets/105072341/86b612c0-fe87-48fe-9107-e99d29bce93b
+⚙️ Code Generation
+To generate components, services, or other Angular constructs:
 
+bash
+Copy code
+ng generate component component-name
+# or
+ng generate directive|pipe|service|class|guard|interface|enum|module
+🏗️ Build
+To compile and build the project for production:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+bash
+Copy code
+ng build
+The build artifacts will be located in the dist/ directory.
 
-## Development server
+🧪 Running Tests
+Unit Tests
+To run unit tests with Karma:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+bash
+Copy code
+ng test
+End-to-End Tests
+To run e2e tests:
 
-## Code scaffolding
+bash
+Copy code
+ng e2e
+Note: You may need to install a supported e2e testing package (like Cypress or Protractor) to use this command.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+📚 Learn More
+Official Angular CLI Docs: angular.io/cli
 
-## Build
+MongoDB Overview: mongodb.com/docs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Express.js Documentation: expressjs.com
